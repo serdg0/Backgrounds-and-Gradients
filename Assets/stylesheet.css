@@ -1,0 +1,50 @@
+ *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav{
+    display: inline-block;
+}
+main{
+    position: relative;
+    background-image: url(./main_background.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    height: 538px;
+    width: auto;
+}
+header img{
+    
+}
+header {
+    height: 104px;
+    background: url(./your_verse_title_small.png) 50% 50% no-repeat;
+    position: absolute;
+    bottom: 53%;
+    right: 25%;
+    left: 25%;
+}
+.subhead{
+    background: url(./your_verse_subhead_small.png) 50% 50% no-repeat;
+    width: 980px;
+    height: 82px;
+    position: absolute;
+    bottom: 39.6%;
+    right: 11.35%;
+}
+.link{
+    width: 980px;
+    height: 29px;
+    background: url(./cta_your_verse_27pt.png) no-repeat;
+    background-position: 50% 0;
+    position: absolute;
+    bottom: 22%;
+    left: 12%;
+    margin-bottom: 35px;
+}
+.more{
+    background: url(./promo_iphone5s.jpg) 0 0 no-repeat, url(./promo_iphone5c.jpg) 0 0 no-repeat, url(./promo_30_years.jpg) 0 0 no-repeat, url(./promo_supplier_responsibility.jpg) 0 0 no-repeat;
+    z-index: 1;
+    height: 200px;   
+}
