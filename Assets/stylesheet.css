@@ -4,7 +4,25 @@
     box-sizing: border-box;
 }
 nav{
+    position: absolute;
+    left: 160px;
+    top: 85px;
+    width: 980px;
+    height: 36px;
     display: inline-block;
+    border: #7a7a7a 2px solid;
+    background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+}
+nav li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    width: 106px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
 }
 main{
     position: relative;
@@ -12,7 +30,7 @@ main{
     background-position: 50% 100%;
     background-repeat: no-repeat;
     height: 538px;
-    width: auto;
+    width: 1268px;
 }
 header img{
     
@@ -35,16 +53,53 @@ header {
 }
 .link{
     width: 980px;
-    height: 29px;
+    height: 30px;
     background: url(./cta_your_verse_27pt.png) no-repeat;
     background-position: 50% 0;
     position: absolute;
     bottom: 22%;
     left: 12%;
     margin-bottom: 35px;
+    z-index: 1px;
 }
 .more{
-    background: url(./promo_iphone5s.jpg) 0 0 no-repeat, url(./promo_iphone5c.jpg) 0 0 no-repeat, url(./promo_30_years.jpg) 0 0 no-repeat, url(./promo_supplier_responsibility.jpg) 0 0 no-repeat;
-    z-index: 1;
-    height: 200px;   
+    padding-top: 2.5px;
 }
+.more div{
+    float: left;
+    width: 317px;
+    height: 200px;
+}
+.iphones{
+    background: url(./promo_iphone5s.jpg) no-repeat;
+}
+.iphonec{
+    background: url(./promo_iphone5c.jpg) no-repeat;
+}
+.anniversary{
+    background: url(./promo_30_years.jpg) no-repeat;
+}
+.suppliers{
+    background: url(./promo_supplier_responsibility.jpg) no-repeat;
+}
+.cover{
+    background-size: contain;
+}
+footer{
+    margin: 0 152px;
+    clear: left;
+    height: 50px;
+    color: #6e6e6e;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer a{
+    color: #08c;
+}
+.rights{
+    float: left;
+}
+.footerlinks{
+    float: right;
+}
+
