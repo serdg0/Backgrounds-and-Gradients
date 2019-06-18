@@ -1,0 +1,129 @@
+ /* *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+nav{
+    position: absolute;
+    left: 160px;
+    top: 85px;
+    width: 980px;
+    height: 36px;
+    display: inline-block;
+    border: #7a7a7a 1px solid;
+    border-radius: 4px;
+    background: linear-gradient(#737373 50%,#777777 25%,#5d5d5d 50% );
+}
+nav ul{
+    height: 36px;
+    padding: 0;
+    margin-top: 0;
+}
+nav a{
+    text-shadow: 2px 2px #363636;
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    float: left;
+    width: 106px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border-left: 1px solid #464646;
+}
+nav li i{
+    padding: 0 4px;
+}
+
+input{
+    height: 19.5px;
+    width: 85px;
+    border-radius: 50px;
+    box-shadow: 3px 1px #3c3c3c;
+    background: inherit;
+}
+main{    
+    position: relative;
+    background-image: url(./main_background.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    height: 538px;
+    width: 1268px;
+}
+.header {
+    height: 104px;
+    background: url(./your_verse_title_small.png) 50% 50% no-repeat;
+    position: absolute;
+    bottom: 53%;
+    right: 25%;
+    left: 25%;
+}
+.subhead{
+    background: url(./your_verse_subhead_small.png) 50% 50% no-repeat;
+    width: 980px;
+    height: 82px;
+    position: absolute;
+    bottom: 39.6%;
+    right: 11.35%;
+}
+.link{
+    width: 980px;
+    height: 30px;
+    background: url(./cta_your_verse_27pt.png) no-repeat;
+    background-position: 50% 0;
+    position: absolute;
+    bottom: 22%;
+    left: 12%;
+    margin-bottom: 35px;
+    z-index: 1px;
+}
+.more{
+    padding-top: 2.5px;
+    overflow: hidden;
+}
+.more div{
+    float: left;
+    width: 317px;
+    height: 200px;
+}
+.iphones{
+    background: url(./promo_iphone5s.jpg) no-repeat;
+}
+.iphonec{
+    background: url(./promo_iphone5c.jpg) no-repeat;
+}
+.anniversary{
+    background: url(./promo_30_years.jpg) no-repeat;
+}
+.suppliers{
+    background: url(./promo_supplier_responsibility.jpg) no-repeat;
+}
+.cover{
+    background-size: contain;
+}
+
+.footer2{
+    margin: 0 152px;
+    clear: left;
+    height: 50px;
+    color: #6e6e6e;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer a{
+    color: #08c;
+}
+.rights{
+    float: left;
+}
+.footerlinks{
+    float: right;
+}
+
