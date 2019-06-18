@@ -10,44 +10,52 @@ nav{
     width: 980px;
     height: 36px;
     display: inline-block;
-    border: #5b5b5b 0.5px solid;
+    border: #7a7a7a 1px solid;
     border-radius: 4px;
-    background: linear-gradient(#747474 10%,#5d5d5d 50%,#737373);
+    background: linear-gradient(#737373 50%,#777777 25%,#5d5d5d 50% );
 }
 nav ul{
     height: 36px;
     padding: 0;
     margin-top: 0;
 }
+nav a{
+    text-shadow: 2px 2px #363636;
+    text-decoration: none;
+    color: white;
+}
 nav li{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     float: left;
-    color: white;
     width: 106px;
     height: 36px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 12px;
-    text-align: center;
-    
+    color: white;
+    border-left: 1px solid #464646;
 }
+nav li i{
+    padding: 0 4px;
+}
+
 input{
     height: 19.5px;
-    width: 106px;
+    width: 85px;
     border-radius: 50px;
+    box-shadow: 3px 1px #3c3c3c;
     background: inherit;
 }
-main{
+main{    
     position: relative;
     background-image: url(./main_background.jpg);
     background-position: 50% 100%;
     background-repeat: no-repeat;
     height: 538px;
     width: 1268px;
-}
-header img{
-    
 }
 header {
     height: 104px;
