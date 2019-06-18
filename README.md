@@ -2,7 +2,7 @@
 
 This repository contains a clone system of an article of an old Apple [Website](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
-It is a project to learn how to make a better layout and make learn about gradients.
+It is a project to learn how to make a better layout and learn about gradients.
 
 Used:
 
