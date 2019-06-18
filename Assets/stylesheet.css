@@ -57,7 +57,7 @@ main{
     height: 538px;
     width: 1268px;
 }
-header {
+.header {
     height: 104px;
     background: url(./your_verse_title_small.png) 50% 50% no-repeat;
     position: absolute;
@@ -108,7 +108,8 @@ header {
 .cover{
     background-size: contain;
 }
-footer{
+
+.footer2{
     margin: 0 152px;
     clear: left;
     height: 50px;
